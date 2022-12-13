@@ -1,4 +1,4 @@
-/fetches data from the mock server.T
+//fetches data from the mock server.T
 function fetchData() {
     fetch("http://localhost:3000/films")
       .then((response) => response.json())
