@@ -29,14 +29,7 @@ body {
   transition: 0.1s;
   }
   
-  /*
-  #movieInfo{
-      margin: 1.5em;
-      display: inline-block;
-      width: 550px;
-      height: 200px;
-      
-  } */ 
+  
   #movieDetail{
       margin-top: 2em;
       margin-right: 15em;
@@ -93,7 +86,7 @@ body {
   
     #list:hover{
       scale: 1.01;
-      background-color:rgb(16, 237, 57);
+      background-color:rgb(207, 69, 69);
     }
   
     
