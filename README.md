@@ -1,8 +1,8 @@
-FLATDANGO MOVIE THEATRE
-DESCRIPTION
+# FLATDANGO MOVIE THEATRE
+## DESCRIPTION
 FlatDango is a web application for purchasing movie tickets.
 
-INSTALLATION
+## INSTALLATION
 To install the repository on your machine follow the instructions below;
 
 Open a terminal on your computer.
@@ -15,7 +15,7 @@ Open it in a text editor of your choice.
 
 
 
-RUNNING THE APPLICATION
+## RUNNING THE APPLICATION
 To run the app on your machine;
 
 Open the terminal and run the command while in the cloned directory;
@@ -32,8 +32,8 @@ There is a buy tickets button available where the user presses to buy tickets.
 
 If tickets are equal to 0 a "No tickets available " message is displayed.
 
-AUTHOR.
+### AUTHOR.
 Fred Kamuyu
 
-LICENSE.
+### LICENSE.
 This project is under license Apache 2.0
