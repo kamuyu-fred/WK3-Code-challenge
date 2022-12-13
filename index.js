@@ -6,7 +6,7 @@ function fetchData() {
   }
   fetchData();
    
-  //append first movie when the page loads
+ //on page load
   function appendFirstMovie(data) {
     let first = data[0];
     let butonn = document.getElementById("button");
@@ -40,7 +40,7 @@ function fetchData() {
     butonn.appendChild(button);
   }
   
-  //fetches list of movies in the menu section
+  //fetches movie list
   function appendMenu() {
     fetch("http://localhost:3000/films")
       .then((response) => response.json())
@@ -48,7 +48,7 @@ function fetchData() {
   }
   appendMenu();
   
-  //Displays menu titles on the menu section
+  //Displays menu titles on side bar
   function menuTitles(data) {
     data.forEach((item) => {
       let title = document.createElement("li");
@@ -77,7 +77,7 @@ function fetchData() {
     button.id = "btn";
     button.textContent = "Buy Ticket";
     let total = item.capacity - item.tickets_sold;
-    //adds button fo buying tickets.
+    //adds button to buy tickets.
     button.addEventListener("click", () => {
       //if tickets available is greater than 0 the total amount decreses by one every time it is pressed otherwise it prints a message
       if (total > 0) {
