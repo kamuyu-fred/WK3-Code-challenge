@@ -1,7 +1,7 @@
 body {
     background-color: #222;
     height: 1000px;
-    background-image: url('/img/theater.jpg');
+    background-image: url('./img/theater.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-attachment: fixed; 
