@@ -1,0 +1,24 @@
+{
+  "name": "wk3-code-challenge",
+  "version": "1.0.0",
+  "description": "code challenge",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamuyu-fred/WK3-Code-challenge.git"
+  },
+  "keywords": [
+    "code",
+    "challenge",
+    "movie"
+  ],
+  "author": "Fred Kamuyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamuyu-fred/WK3-Code-challenge/issues"
+  },
+  "homepage": "https://github.com/kamuyu-fred/WK3-Code-challenge#readme"
+}
