@@ -2,6 +2,8 @@
 ## DESCRIPTION
 FlatDango is a web application for purchasing movie tickets.
 
+The site can be accessed at https://kamuyu-fred.github.io/WK3-Code-challenge/
+
 ## INSTALLATION
 To install the repository on your machine follow the instructions below;
 
